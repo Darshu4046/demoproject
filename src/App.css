@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.cardheader{
+  font-size: 28px !important;
+  line-height: 35px !important;
+  font-weight: 400 !important;
+  font-family: "Lato" !important;
+}
+.App{
+  padding: 0px 176px 30px 176px;
+  background-color: #f5f5f5;
+  max-height: 76vh;
+  min-height: 76vh;
+  overflow-y: scroll;
+}
+.cardbottom{
+  font-size: 36px !important;
+  line-height: 29px !important;
+  font-weight: 900 !important;
+  font-family: "Lato" !important;
+}
+.table-position {
+  max-height: calc(100vh - 400px);
+  overflow-x: hidden; 
+ /* margin-left: 20px; */
+ background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .lastcolumnSeparator .MuiDataGrid-columnSeparator--sideRight {
+display: none !important;
+} */
+.MuiDataGrid-columnHeaders {
+background: #FFFFFF !important;
+}
+.MuiDataGrid-selectedRowCount {
+visibility: hidden !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footercontent {
+margin-top: 16px;
+display: flex;
+justify-content: flex-end;
+}
+
+.auction-link-color{
+ color: #2F80ED !important;
+ text-decoration: none !important;
+}
+
+.MuiCheckbox-root{
+ border: 1px solid
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+  background-color: white !important;
+}
+@media (max-width: 899px) {
+  .App{
+    padding: 0px 17px 30px 17px;
+    background-color: #f5f5f5;
+    max-height: 76vh;
+    min-height: 76vh;
+    overflow-y: scroll;
   }
 }
+@media (max-width: 1200px) {
+  .App{
+    padding: 0px 50px 30px 50px;
+    background-color: #f5f5f5;
+    max-height: 76vh;
+    min-height: 76vh;
+    overflow-y: scroll;
+  }
+}
+.css-dlwkee-MuiBadge-badge{
+  background-color:red !important;
+  color: white !important;
+}
+.css-j5w0w9-MuiStepConnector-root {
+  height: 20px;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.css-z7uhs0-MuiStepConnector-line {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  border-color: #ffffff;
+  border-top-style: solid;
+  border-top-width: 7px !important;
+  position: relative;
+  width: 76px;
+  margin: -20px;
+display: none !important;
+  margin-top: -2px;
+  z-index: 1;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-left: -16px;
 }

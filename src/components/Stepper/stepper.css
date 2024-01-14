@@ -1,0 +1,28 @@
+.css-ascpo7-MuiStepLabel-root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+    color: white;
+   
+}
+/* 
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+width: 1rem !important;
+height: 3rem !important;
+} */
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+    height: 2em !important;
+    width: 2em !important;
+}
+.css-j5w0w9-MuiStepConnector-root {
+    -webkit-flex: 0 0 auto !important;
+}
+.css-1bw0nnu-MuiStep-root {
+    padding: 0 !important;
+}
+.css-vnkopk-MuiStepLabel-iconContainer {
+    padding: 0 !important;
+}
